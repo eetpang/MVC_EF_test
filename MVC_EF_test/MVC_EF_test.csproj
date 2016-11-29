@@ -177,10 +177,21 @@
     <Compile Include="Migrations\201611290027324_InitialState.Designer.cs">
       <DependentUpon>201611290027324_InitialState.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611290548431_SeedingDatabase.cs" />
+    <Compile Include="Migrations\201611290548431_SeedingDatabase.Designer.cs">
+      <DependentUpon>201611290548431_SeedingDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611290605373_AddLengthConstraint.cs" />
+    <Compile Include="Migrations\201611290605373_AddLengthConstraint.Designer.cs">
+      <DependentUpon>201611290605373_AddLengthConstraint.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Course.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Major.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -254,6 +265,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611290027324_InitialState.resx">
       <DependentUpon>201611290027324_InitialState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611290548431_SeedingDatabase.resx">
+      <DependentUpon>201611290548431_SeedingDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611290605373_AddLengthConstraint.resx">
+      <DependentUpon>201611290605373_AddLengthConstraint.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

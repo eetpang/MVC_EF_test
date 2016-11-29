@@ -69,3 +69,5 @@ F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.dll
 F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.pdb
 F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.Migrations.InitialState.resources
 F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.csproj.GenerateResource.Cache
+F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.Migrations.SeedingDatabase.resources
+F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.Migrations.AddLengthConstraint.resources
