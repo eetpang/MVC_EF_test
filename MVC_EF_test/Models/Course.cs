@@ -14,6 +14,9 @@ namespace MVC_EF_test.Models
         [StringLength(255)]
         public string Name { get; set; }
 
-
+        public ApplicationUser InstructorUser { get; set; }
+        public string Description { get; set; }
+        public DateTime DateStart { get; set; }
+        public DateTime DateEnd { get; set; }
     }
 }

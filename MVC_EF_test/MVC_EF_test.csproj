@@ -185,10 +185,19 @@
     <Compile Include="Migrations\201611290605373_AddLengthConstraint.Designer.cs">
       <DependentUpon>201611290605373_AddLengthConstraint.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611300048564_AddStudentId.cs" />
+    <Compile Include="Migrations\201611300048564_AddStudentId.Designer.cs">
+      <DependentUpon>201611300048564_AddStudentId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611300735117_AddAplictionUserToCourse.cs" />
+    <Compile Include="Migrations\201611300735117_AddAplictionUserToCourse.Designer.cs">
+      <DependentUpon>201611300735117_AddAplictionUserToCourse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Course.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Major.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Student.cs" />
@@ -250,6 +259,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\Course.cshtml" />
+    <Content Include="Views\Home\Student.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -271,6 +282,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611290605373_AddLengthConstraint.resx">
       <DependentUpon>201611290605373_AddLengthConstraint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611300048564_AddStudentId.resx">
+      <DependentUpon>201611300048564_AddStudentId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611300735117_AddAplictionUserToCourse.resx">
+      <DependentUpon>201611300735117_AddAplictionUserToCourse.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

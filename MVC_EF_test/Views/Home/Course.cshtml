@@ -1,0 +1,32 @@
+﻿@model IEnumerable<MVC_EF_test.Models.Course>
+
+@{
+    ViewBag.Title = "Course";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Course</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Course ID
+        </th>
+        <th>
+            Course Name
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.Id
+        </td>
+        <td>
+           @item.Name
+        </td>
+    </tr>
+}
+
+</table>

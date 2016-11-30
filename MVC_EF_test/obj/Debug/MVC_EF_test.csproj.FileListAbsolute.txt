@@ -71,3 +71,5 @@ F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.Migrations.Initia
 F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.csproj.GenerateResource.Cache
 F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.Migrations.SeedingDatabase.resources
 F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.Migrations.AddLengthConstraint.resources
+F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.Migrations.AddStudentId.resources
+F:\IT\Marlabs\My\MVC_EF_test\MVC_EF_test\obj\Debug\MVC_EF_test.Migrations.AddAplictionUserToCourse.resources
